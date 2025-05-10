@@ -1,0 +1,20 @@
+.portfolio {
+    padding: 4rem 2rem;
+    background: #111;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  .card {
+    background: #222;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.03);
+  }
+  

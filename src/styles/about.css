@@ -1,0 +1,426 @@
+/* پایه‌های تم دارک */
+:root {
+  --dark-bg: #121212;
+  --darker-bg: #0a0a0a;
+  --card-bg: #1e1e1e;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --accent-blue: #3a86ff;
+  --accent-teal: #00f5d4;
+  --gradient: linear-gradient(135deg, var(--accent-blue), var(--accent-teal));
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* استایل‌های پایه */
+.about-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 6rem 2rem 4rem;
+  color: var(--text-primary);
+  background-color: var(--dark-bg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+/* استایل‌های ویدیو بک‌گراند */
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: fill;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: brightness(0.4);
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(10, 10, 10, 0.9) 0%,
+    rgba(10, 10, 10, 0.7) 50%,
+    rgba(10, 10, 10, 0.5) 100%
+  );
+}
+
+/* بخش هیرو */
+.hero-section {
+  position: relative;
+  height: 50vh;  /* کاهش ارتفاع برای جلوگیری از اسکرول */
+  min-height: 450px; /* حداقل ارتفاع */
+  display: flex;
+  flex-direction: column; /* یا حذف کامل برای افقی */
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  border-radius: 15px;
+  overflow: hidden;
+  isolation: isolate;
+  text-align: center; /* برای وسط‌چین کردن متن */
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* عمودی شدن عکس و متن */
+  gap: 2rem;
+  z-index: 2;
+  max-width: 100%;
+  width: 100%;
+}
+
+.profile-image-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--card-bg);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 2;
+}
+
+.image-border {
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  margin-top: 10px;
+  top: -5%;
+  left: -5%;
+  border-radius: 50%;
+  background: var(--gradient);
+  z-index: 1;
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+/* بخش‌های محتوا */
+.section-header {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.title-line {
+  width: 80px;
+  height: 4px;
+  background: var(--gradient);
+  border-radius: 2px;
+}
+
+.about-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+/* بخش مهارت‌ها */
+/* .skills-section {
+  margin: 5rem 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.skill-category {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.skill-category:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  border-color: rgba(58, 134, 255, 0.2);
+}
+
+.skill-category h3 {
+  color: var(--accent-teal);
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-category ul {
+  list-style: none;
+}
+
+.skill-category li {
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 1.5rem;
+  color: var(--text-primary);
+}
+
+.skill-category li::before {
+  content: "▹";
+  color: var(--accent-blue);
+  position: absolute;
+  left: 0;
+} */
+
+
+.skills-section {
+  margin: 6rem 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.skill-category {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.skill-category:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  border-color: rgba(58, 134, 255, 0.25);
+}
+
+.skill-category h3 {
+  color: var(--accent-teal);
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-category ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+}
+
+.skill-category li {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.skill-category li::before {
+  content: "⦿";
+  color: var(--accent-teal);
+  font-size: 1.1rem;
+  position: relative;
+}
+
+
+
+
+/* جدول زمانی تجربیات */
+.timeline-section {
+  margin: 5rem 0;
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(to bottom, 
+    rgba(58, 134, 255, 0.5), 
+    rgba(0, 245, 212, 0.5));
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-date {
+  position: absolute;
+  left: -110px;
+  top: 0;
+  width: 100px;
+  text-align: right;
+  color: var(--accent-teal);
+  font-weight: bold;
+}
+
+.timeline-content {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.timeline-content::before {
+  content: '';
+  position: absolute;
+  left: -22px;
+  top: 25px;
+  width: 10px;
+  height: 10px;
+  background: var(--accent-blue);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(58, 134, 255, 0.2);
+}
+
+.timeline-content h3 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* افکت‌های ویژه */
+.highlight-text {
+  color: var(--accent-teal);
+  font-weight: 500;
+}
+
+/* طراحی واکنش‌گرا */
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    min-height: auto;
+    padding: 2rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .profile-image-container {
+    margin: 0 auto;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .timeline-container {
+    padding-left: 30px;
+  }
+
+  .timeline-date {
+    position: static;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: var(--accent-teal);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-image-container {
+    width: 200px;
+    height: 200px;
+  }
+}

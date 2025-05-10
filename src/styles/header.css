@@ -1,0 +1,97 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.header.scrolled {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0.6rem 2rem;
+}
+
+.logo-img {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
+  transform: scale(1.5);
+  margin-right: 10px;
+  filter: drop-shadow(0 0 0.1px #0ff) drop-shadow(0 0 3px #0ff) drop-shadow(0 0 100px #0ff);
+}
+
+.header.scrolled .logo-img {
+  transform: scale(1);
+}
+
+.nav a {
+  margin-left: 1.5rem;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #00ffff;
+  left: 0;
+  bottom: -4px;
+  transition: width 0.3s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav a:hover {
+  color: #00ffff;
+}
+
+.language-select {
+  margin-left: 1rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.85rem;
+  outline: none;
+  cursor: pointer;
+  /* appearance: none;  */
+  transition: background 0.3s, border 0.3s;
+}
+
+.language-select:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #00ffff;
+}
+
+/* زیباسازی لیست بازشونده (در بیشتر مرورگرها به‌صورت محدود قابل تنظیم است) */
+.language-select option {
+  background: #111;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+
+.nav a.active {
+  background-color: #222;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+

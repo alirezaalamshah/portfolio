@@ -1,0 +1,178 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "greeting": "Hallo, ich bin Alireza",
+  "iam": "Ich bin ein",
+  "typewriter_words": [
+    "Webentwickler",
+    "UI-Designer",
+    "Minimalismus-Liebhaber"
+  ],
+  "description": "Einfaches, professionelles und benutzerzentriertes Design ist meine Spezialität",
+  "video_not_supported": "Ihr Browser unterstützt das Video nicht",
+  "see_portfolio": "Portfolio ansehen",
+  "portfolio_title": "Portfolio",
+  "project": "Projekt",
+  "about": {
+    "hero_subtitle": "Frontend-Entwickler und UX/UI-Designer",
+    "section_title": "Über Mich",
+    "content": [
+      "Ich bin Alireza, Softwareentwickler mit Schwerpunkt Python. Ich verfüge über umfangreiche Erfahrung in der Entwicklung von Anwendungssoftware, der Datenverarbeitung und dem Entwurf vernetzter Systeme mit Python und interessiere mich für die Optimierung und Implementierung von Python in verschiedenen Projekten. Neben meinen umfassenden Python-Kenntnissen verfüge ich über umfassende Kenntnisse in der Webentwicklung mit HTML, CSS und JavaScript und arbeite an der Gestaltung moderner Benutzeroberflächen und der Erstellung interaktiver Websites. Darüber hinaus arbeite ich seit über einem Jahr an verschiedenen Projekten mit ReactJs und habe wertvolle Erfahrungen in der Entwicklung dynamischer und skalierbarer Webanwendungen gesammelt.",
+      "Das Erlernen und Anwenden neuer Technologien in der Softwareentwicklung ist eines meiner ständigen Ziele. Darüber hinaus verfüge ich mit mehr als drei Jahren Erfahrung in der Entwicklung und Optimierung von WordPress-Websites über besondere Fähigkeiten im Design, der Personalisierung und der Verwaltung von WordPress-Websites. Auf meinem beruflichen Weg bin ich stets bestrebt, zu lernen, meine Fähigkeiten zu verbessern und mich neuen Herausforderungen zu stellen."
+    ]
+  },
+  "skills": {
+    "section_title": "Fachkenntnisse",
+    "language": {
+      "title": "Programmiersprachen",
+      "items": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    "frontend": {
+      "title": "Frontend",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React.js",
+        "Tailwind CSS"
+      ]
+    },
+    "design": {
+      "title": "Design",
+      "items": [
+        "Figma",
+        "UI/UX Design",
+        "Designsysteme",
+        "Prototyping",
+        "Dark Mode Design",
+        "Minimalist Design"
+      ]
+    },
+    "other": {
+      "title": "Andere",
+      "items": [
+        "Git & GitHub",
+        "Agile Methodology",
+        "Jest & Testing",
+        "CI/CD",
+        "Docker",
+        "VS Code",
+        "Responsive Design",
+        "Cross-browser Compatibility"
+      ]
+    }
+  },
+  "experience": {
+    "section_title": "Berufserfahrung",
+    "items": [
+      {
+        "date": "2021 - Heute",
+        "title": "Senior Frontend-Entwickler - Tech Company",
+        "description": "Leitung des Frontend-Teams bei der Entwicklung von Unternehmensanwendungen mit React und TypeScript. Entwurf und Implementierung des Designsystems des Unternehmens."
+      },
+      {
+        "date": "2019 - 2021",
+        "title": "Frontend-Entwickler - Digi Startup",
+        "description": "Entwicklung der Benutzeroberfläche für E-Commerce-Plattformen mit React und Redux. Optimierung von Leistung und Benutzererfahrung."
+      }
+    ]
+  },
+  "footer": {
+    "location": "Teheran, Iran",
+    "sendMessage": "Nachricht senden",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefonnummer",
+    "message": "Ihre Nachricht...",
+    "submit": "Nachricht senden",
+    "success": "Nachricht erfolgreich gesendet!",
+    "rights": "Alle Rechte vorbehalten für Alireza Alamshah"
+  },
+  "projects": {
+    "wps": {
+      "title": "Entwickelt mit WordPress",
+      "description": "Gestaltung der Website der Nikitab Organization mit WordPress, mit einer optimierten Struktur und einer einfachen und praktischen Benutzeroberfläche."
+    },
+    "personal_site": {
+      "title": "Persönliche Webseite",
+      "description": "Ein Portfolio mit minimalistischem Design und klarer Struktur zur Präsentation einzelner Projekte und Fähigkeiten."
+    },
+    "Desktop_App1": {
+      "title": "Druck von Mutterkartonetiketten",
+      "description": "Etikettendrucksystem für Mutterkartons mit hoher Genauigkeit und Geschwindigkeit für industrielle Produktionslinien."
+    },
+    "Desktop_App2": {
+      "title": "Modem update tool",
+      "description": "Ein Tool zum automatischen Aktualisieren von Modems in Produktionslinien mit einfacher Benutzeroberfläche und schneller Leistung."
+    },
+    "Desktop_App3": {
+      "title": "Modem-Test- und Diagnosetool",
+      "description": "Ein Tool zur Überprüfung der Internetverbindung, Geschwindigkeit, Ping, WLAN-Leistung und Modemkonfiguration für DSL-, Glasfaser- und 4G/5G-Modems in Produktions."
+    },
+    "Desktop_App4": {
+      "title": "Schulverwaltungssoftware",
+      "description": "Diese Software ist für die umfassende Verwaltung einer Berufsschule konzipiert und bietet Funktionen wie Anwesenheitskontrolle der Schüler, Notenverwaltung, Personalmanagement und weitere betriebliche Abläufe."
+    },
+    "Excel1": {
+      "title": "Dynamische Excel-Software",
+      "description": "Intelligente Excel-Datei zur schnellen Preisberechnung mit Live-Wechselkursen und Makros."
+    },
+    "html_project": {
+      "title": "HTML-Projekt",
+      "description": "Einfaches HTML5-Projekt zur Servicepräsentation."
+    },
+    "shopping_website": {
+      "title": "E-Commerce-Projekt",
+      "description": "Eine responsive E-Commerce-Website mit professioneller Benutzererfahrung, die es den Nutzern ermöglicht, Produkte anzusehen, in den Warenkorb zu legen, Bestellungen aufzugeben und ihr Konto zu verwalten."
+    },
+    "barber_shop": {
+      "title": "Barbershop-Website",
+      "description": "Eine minimalistische und responsive Website zur Präsentation von Dienstleistungen, Online-Terminbuchung und Galerie eines Barbershops."
+    },
+    "2048_Game": {
+      "title": "2048-Spiel",
+      "description": "Eine einfache und unterhaltsame Version des 2048-Spiels mit responsivem Design, direkt im Browser spielbar – ideal zum Üben von Logik und Mathematik."
+    },
+    "Hangman": {
+      "title": "Wortspiel mit Bildern",
+      "description": "Ein einfaches Spiel, bei dem die Spieler das richtige Wort anhand eines Bildes erraten. Ideal zur Förderung von Wortschatz und Denkvermögen – auch für nicht-englische Sprachen."
+    },
+    "Tetris": {
+      "title": "Tetris-Spiel für den Browser",
+      "description": "Eine einfache, flüssige Version des klassischen Tetris-Spiels für Desktop-Browser. Mobile Unterstützung ist eingeschränkt."
+    },
+    "Figma1": {
+      "title": "UI-Design mit Figma",
+      "description": "Ein Beispiel für professionelles UI-Design mit Figma – mit responsiven und strukturierten Layouts für Websites oder Apps."
+    },
+    "Figma2": {
+      "title": "UI-Design mit Figma",
+      "description": "Ein Beispiel für professionelles UI-Design mit Figma – mit responsiven und strukturierten Layouts für Websites oder Apps."
+    },
+    "Figma3": {
+      "title": "UI-Design mit Figma",
+      "description": "Ein Beispiel für professionelles UI-Design mit Figma – mit responsiven und strukturierten Layouts für Websites oder Apps."
+    },
+    "Figma4": {
+      "title": "UI-Design mit Figma",
+      "description": "Ein Beispiel für professionelles UI-Design mit Figma – mit responsiven und strukturierten Layouts für Websites oder Apps."
+    }
+  },
+  "categories": {
+    "all": "Alle",
+    "web": "Web",
+    "graphic": "Grafikdesign",
+    "desktop": "Desktop Software",
+    "excel": "Excel"
+  }
+}
