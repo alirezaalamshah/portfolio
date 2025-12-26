@@ -1,0 +1,254 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt",
+    "licence": "Zertifikat"
+  },
+  "greeting": "Hallo, ich bin Alireza",
+  "iam": "Ich bin ein",
+  "typewriter_words": [
+    "Webentwickler",
+    "UI-Designer",
+    "Minimalismus-Liebhaber"
+  ],
+  "description": "Einfaches, professionelles und benutzerzentriertes Design ist meine Spezialität",
+  "video_not_supported": "Ihr Browser unterstützt das Video nicht",
+  "see_portfolio": "Portfolio ansehen",
+  "portfolio_title": "Portfolio",
+  "project": "Projekt",
+  "about": {
+    "hero_subtitle": "Frontend-Entwickler und UX/UI-Designer",
+    "section_title": "Über Mich",
+    "content": [
+      "Ich bin Alireza, Softwareingenieur mit Spezialisierung auf Python und moderne Webentwicklung. Ich verfüge über umfangreiche Erfahrung in der Gestaltung und Implementierung von Anwendungssoftware, Datenverarbeitung, Entwicklung vernetzter Systeme und Optimierung der Softwareleistung. Meine Kenntnisse in Python sowie in HTML, CSS und JavaScript ermöglichen es mir, interaktive, responsive und skalierbare Webanwendungen zu entwickeln.",
+      "Im vergangenen Jahr habe ich in verschiedenen Projekten mit React.js gearbeitet und wertvolle Erfahrungen in der Entwicklung dynamischer, skalierbarer Webanwendungen mit modernen Benutzeroberflächen gesammelt. Zusätzlich habe ich über drei Jahre Erfahrung in der Gestaltung, Anpassung und Verwaltung von WordPress-Websites, wobei ich deren Leistung, Benutzererfahrung und Effizienz verbessert habe.",
+      "Ich bin leidenschaftlich daran interessiert, moderne Technologien in der Softwareentwicklung zu lernen und anzuwenden, und suche stets neue Herausforderungen, die Verbesserung meiner Fähigkeiten und Möglichkeiten, zu hochwertigen und wirkungsvollen Projekten beizutragen."
+    ]
+  },
+  "skills": {
+    "section_title": "Fachliche Fähigkeiten",
+    "programming_languages": {
+      "title": "Programmiersprachen",
+      "items": [
+        "Python",
+        "SQL",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "TypeScript"
+      ]
+    },
+    "frontend": {
+      "title": "Frontend",
+      "items": [
+        "React.js",
+        "Tailwind CSS",
+        "Responsives Design",
+        "Browserübergreifende Kompatibilität",
+        "UI/UX Best Practices",
+        "Dark Mode Design"
+      ]
+    },
+    "backend": {
+      "title": "Backend & API",
+      "items": [
+        "Django",
+        "FastAPI",
+        "Node.js",
+        "REST API Entwicklung",
+        "Datenbank-Design & Optimierung",
+        "SQL & MySQL",
+        "Authentifizierung & Autorisierung"
+      ]
+    },
+    "tools_technologies": {
+      "title": "Werkzeuge & Technologien",
+      "items": [
+        "Git & GitHub",
+        "Docker",
+        "CI/CD",
+        "VS Code",
+        "Jupyter Notebook",
+        "Google Colab",
+        "Linux Administration",
+        "Windows Server",
+        "Selenium",
+        "OpenCV",
+        "pandas",
+        "NumPy",
+        "Matplotlib",
+        "Tkinter",
+        "PyQt",
+        "Scikit-learn"
+      ]
+    },
+    "design": {
+      "title": "Design & UX",
+      "items": [
+        "Figma",
+        "UI/UX Design",
+        "Design Systeme",
+        "Prototyping",
+        "Minimalistisches Design",
+        "Dark Mode Design"
+      ]
+    },
+    "soft_skills": {
+      "title": "Soziale Kompetenzen",
+      "items": [
+        "Kommunikationsfähigkeiten",
+        "Stakeholder Management",
+        "Teamführung",
+        "Problemlösung",
+        "Zeitmanagement",
+        "Anpassungsfähigkeit",
+        "Zusammenarbeit & Beziehungsaufbau"
+      ]
+    }
+  },
+  "certificates": {
+    "section_title": "Zertifikate",
+    "python": {
+      "title": "Fortgeschrittenes Python-Zertifikat",
+      "description": "Vollständige Beherrschung von objektorientierten Konzepten, Datenstrukturen, Algorithmen und Programmoptimierung"
+    },
+    "react": {
+      "title": "React-Entwickler",
+      "description": "Entwicklung dynamischer, skalierbarer Webanwendungen mit modernem UI"
+    },
+    "JavaScript": {
+      "title": "JavaScript-Entwickler",
+      "description": "Erfahren in ES6+, DOM und der Entwicklung interaktiver Webanwendungen"
+    }
+  },
+  "experience": {
+    "section_title": "Berufserfahrung",
+    "items": [
+      {
+        "date": "Juni 2024 — Gegenwart",
+        "title": "Softwareentwickler — Alvan Paint and Resin Production Company",
+        "description": "Entwicklung und Wartung interner CRM-Software • Benutzerunterstützung und Vorfallmanagement • Verbesserung der Stabilität und Qualität aktiver und älterer Softwaremodule"
+      },
+      {
+        "date": "Sep 2022 — Gegenwart (Teilzeit)",
+        "title": "IT-Spezialist — Teb & Salamat Niki-Pajouh",
+        "description": "Entwurf und Entwicklung einer zweisprachigen Firmenwebsite mit Django und React • Technische Wartung und Support interner IT-Systeme und Infrastruktur"
+      },
+      {
+        "date": "Sep 2021 — Juni 2024 (Teilzeit)",
+        "title": "Technischer Ausbilder & Support — Moshfegh Educational Center",
+        "description": "Unterricht in Python, Datenbanken und Algorithmen • Softwaretests und Fehlerbehebung • Technische Beratung und Unterstützung beim IT-Einkauf"
+      },
+      {
+        "date": "Nov 2022 — Mai 2024",
+        "title": "Softwareentwickler — Somico Company",
+        "description": "Entwurf und Dokumentation von SOPs für Produktionslinien (5+ Modem-Modelle) • Entwicklung von Automatisierungssoftware für Produktionslinien mit Python & SQL, ~20% Effizienzsteigerung • Prozessanalyse, Optimierung und Fehlerreduzierung"
+      },
+      {
+        "date": "Apr 2017 — Dez 2022",
+        "title": "Softwareentwickler — Ratin Khosh",
+        "description": "Entwicklung von Softwaretools für Verpackungslinien mit Python & SQL • Implementierung und Wartung von Informationssicherheitsmanagementprozessen (ISMS)"
+      },
+      {
+        "date": "Apr 2016 — März 2017",
+        "title": "Technischer Leiter — Midea Service Center (After-Sales)",
+        "description": "Leitung des Hardware- und Software-Reparaturteams • Installation und Konfiguration von IT-Systemen für Kunden • Qualitätskontrolle und Überwachung technischer Abläufe"
+      }
+    ]
+  },
+  "footer": {
+    "location": "Teheran, Iran",
+    "sendMessage": "Nachricht senden",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefonnummer",
+    "message": "Ihre Nachricht...",
+    "submit": "Nachricht senden",
+    "success": "Nachricht erfolgreich gesendet!",
+    "rights": "Alle Rechte vorbehalten für Alireza Alamshah"
+  },
+  "projects": {
+    "wps": {
+      "title": "Neu entwickelt mit React und Django",
+      "description": "Dieses Projekt wurde ursprünglich mit WordPress umgesetzt und nun mit React im Frontend und Django im Backend neu entwickelt, um eine bessere Leistung, höhere Skalierbarkeit und eine moderne Architektur zu bieten."
+    },
+    "rccoffee":{
+      "title": "Dynamisches Café-Menü",
+      "description": "Dynamisches Café-Menü mit Administrationspanel zur Verwaltung von Artikeln, Preisen und Verfügbarkeit. Benutzer können Bestellungen ohne Online-Zahlung registrieren. Frontend mit React und Backend mit Django umgesetzt."
+    },
+    "personal_site": {
+      "title": "Persönliche Webseite",
+      "description": "Ein Portfolio mit minimalistischem Design und klarer Struktur zur Präsentation einzelner Projekte und Fähigkeiten."
+    },
+    "Desktop_App1": {
+      "title": "Druck von Mutterkartonetiketten",
+      "description": "Etikettendrucksystem für Mutterkartons mit hoher Genauigkeit und Geschwindigkeit für industrielle Produktionslinien."
+    },
+    "Desktop_App2": {
+      "title": "Modem update tool",
+      "description": "Ein Tool zum automatischen Aktualisieren von Modems in Produktionslinien mit einfacher Benutzeroberfläche und schneller Leistung."
+    },
+    "Desktop_App3": {
+      "title": "Modem-Test- und Diagnosetool",
+      "description": "Ein Tool zur Überprüfung der Internetverbindung, Geschwindigkeit, Ping, WLAN-Leistung und Modemkonfiguration für DSL-, Glasfaser- und 4G/5G-Modems in Produktions."
+    },
+    "Desktop_App4": {
+      "title": "Schulverwaltungssoftware",
+      "description": "Diese Software ist für die umfassende Verwaltung einer Berufsschule konzipiert und bietet Funktionen wie Anwesenheitskontrolle der Schüler, Notenverwaltung, Personalmanagement und weitere betriebliche Abläufe."
+    },
+    "Excel1": {
+      "title": "Dynamische Excel-Software",
+      "description": "Intelligente Excel-Datei zur schnellen Preisberechnung mit Live-Wechselkursen und Makros."
+    },
+    "html_project": {
+      "title": "HTML-Projekt",
+      "description": "Einfaches HTML5-Projekt zur Servicepräsentation."
+    },
+    "shopping_website": {
+      "title": "E-Commerce-Projekt",
+      "description": "Eine responsive E-Commerce-Website mit professioneller Benutzererfahrung, die es den Nutzern ermöglicht, Produkte anzusehen, in den Warenkorb zu legen, Bestellungen aufzugeben und ihr Konto zu verwalten."
+    },
+    "barber_shop": {
+      "title": "Barbershop-Website",
+      "description": "Eine minimalistische und responsive Website zur Präsentation von Dienstleistungen, Online-Terminbuchung und Galerie eines Barbershops."
+    },
+    "2048_Game": {
+      "title": "2048-Spiel",
+      "description": "Eine einfache und unterhaltsame Version des 2048-Spiels mit responsivem Design, direkt im Browser spielbar – ideal zum Üben von Logik und Mathematik."
+    },
+    "Hangman": {
+      "title": "Wortspiel mit Bildern",
+      "description": "Ein einfaches Spiel, bei dem die Spieler das richtige Wort anhand eines Bildes erraten. Ideal zur Förderung von Wortschatz und Denkvermögen – auch für nicht-englische Sprachen."
+    },
+    "Tetris": {
+      "title": "Tetris-Spiel für den Browser",
+      "description": "Eine einfache, flüssige Version des klassischen Tetris-Spiels für Desktop-Browser. Mobile Unterstützung ist eingeschränkt."
+    },
+    "Figma1": {
+      "title": "UI-Design mit Figma",
+      "description": "Ein Beispiel für professionelles UI-Design mit Figma – mit responsiven und strukturierten Layouts für Websites oder Apps."
+    },
+    "Figma2": {
+      "title": "UI-Design mit Figma",
+      "description": "Ein Beispiel für professionelles UI-Design mit Figma – mit responsiven und strukturierten Layouts für Websites oder Apps."
+    },
+    "Figma3": {
+      "title": "UI-Design mit Figma",
+      "description": "Ein Beispiel für professionelles UI-Design mit Figma – mit responsiven und strukturierten Layouts für Websites oder Apps."
+    },
+    "Figma4": {
+      "title": "UI-Design mit Figma",
+      "description": "Ein Beispiel für professionelles UI-Design mit Figma – mit responsiven und strukturierten Layouts für Websites oder Apps."
+    }
+  },
+  "categories": {
+    "all": "Alle",
+    "web": "Web",
+    "graphic": "Grafikdesign",
+    "desktop": "Desktop Software",
+    "excel": "Excel"
+  }
+}

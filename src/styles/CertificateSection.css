@@ -1,0 +1,88 @@
+.certificate-section {
+  padding: 4rem 1rem;
+}
+
+.certificates-grid {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+  column-gap: 1rem;
+  justify-content: center;
+  padding: 2rem 0.5rem;
+}
+
+.certificate-card {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 4 / 3; /* حفظ تناسب شبیه به کارت پروژه */
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #111;
+}
+
+.certificate-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 12px 32px rgba(0, 255, 255, 0.3); /* درخشش teal مشابه پروژه */
+}
+
+.certificate-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.certificate-card:hover .certificate-image {
+  opacity: 0.4; /* تصویر کمی تیره‌تر شود تا متن خواناتر باشد */
+  transform: scale(1.1);
+}
+
+.certificate-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7); /* پس‌زمینه تیره هنگام هاور */
+  backdrop-filter: blur(8px); /* افکت شیشه‌ای */
+  color: #fff;
+  padding: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.certificate-card:hover .certificate-overlay {
+  opacity: 1;
+}
+
+.certificate-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: var(--accent-teal, #00ffff); /* استفاده از متغیر رنگ اصلی شما */
+}
+
+.certificate-description {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* واکنش‌گرایی برای موبایل */
+@media (max-width: 768px) {
+  .certificate-card {
+    max-width: 100%;
+  }
+  
+  .certificate-overlay {
+    /* در موبایل می‌توانید شفافیت را کمی بیشتر کنید تا همیشه کمی دیده شود */
+    backdrop-filter: blur(4px);
+  }
+}
