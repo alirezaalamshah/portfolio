@@ -1,12 +1,49 @@
-# React + Vite
+# Alireza Alamshah — Portfolio (Legacy)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An earlier version of my personal portfolio site, built with React + Vite.
 
-Currently, two official plugins are available:
+**[English](#english) | [فارسی](#فارسی)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> This is a previous version of the personal site. The current version lives in [new-portfolio](https://github.com/alirezaalamshah/new-portfolio), rebuilt with Astro.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## English
+
+### About
+
+A single-page React portfolio presenting projects, certificates, and a contact section, previously deployed to a custom domain.
+
+### Tech Stack
+
+- React + Vite
+- ESLint
+
+### Getting Started
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+---
+
+## فارسی
+
+### درباره
+
+یک سایت پورتفولیوی تک‌صفحه‌ای با React، شامل پروژه‌ها، گواهینامه‌ها و بخش تماس، که پیش‌تر روی یک دامنه‌ی اختصاصی منتشر می‌شد.
+
+### پشته فناوری
+
+- React + Vite
+- ESLint
+
+### راه‌اندازی
+
+```bash
+npm install
+npm run dev
+npm run build
+```
