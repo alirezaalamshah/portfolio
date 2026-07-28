@@ -1,6 +1,6 @@
 # Alireza Alamshah — Portfolio (Legacy)
 
-An earlier version of my personal portfolio site, built with React + Vite.
+An earlier version of my personal portfolio site, built with React + Vite. Verified working by running it locally.
 
 **[English](#english) | [فارسی](#فارسی)**
 
@@ -10,9 +10,13 @@ An earlier version of my personal portfolio site, built with React + Vite.
 
 ## English
 
+### Screenshot
+
+![Legacy portfolio — hero section](docs/screenshot.jpg)
+
 ### About
 
-A single-page React portfolio presenting projects, certificates, and a contact section, previously deployed to a custom domain.
+A single-page React portfolio presenting projects, certificates (Python/React/Java, plus PDF proposals for a label-printing system and a modem-update presentation), and a contact section, previously deployed to `alirezaalamsha.ir`.
 
 ### Tech Stack
 
@@ -31,9 +35,13 @@ npm run build
 
 ## فارسی
 
+### تصویر
+
+![پورتفولیوی قدیمی — بخش هیرو](docs/screenshot.jpg)
+
 ### درباره
 
-یک سایت پورتفولیوی تک‌صفحه‌ای با React، شامل پروژه‌ها، گواهینامه‌ها و بخش تماس، که پیش‌تر روی یک دامنه‌ی اختصاصی منتشر می‌شد.
+یک سایت پورتفولیوی تک‌صفحه‌ای با React، شامل پروژه‌ها، گواهینامه‌ها (پایتون/React/جاوا، به‌همراه پیشنهادهای PDF برای یک سیستم چاپ لیبل و ارائه‌ی به‌روزرسانی مودم) و بخش تماس، که پیش‌تر روی دامنه‌ی `alirezaalamsha.ir` منتشر می‌شد.
 
 ### پشته فناوری
 
